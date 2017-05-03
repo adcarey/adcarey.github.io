@@ -1,0 +1,268 @@
+/*updating header style on all pages*/
+header {
+	height: 75px;
+	width: 100%;
+	border-bottom: solid;
+	border-color: #cccccc;
+	background-color: #ffffff;
+	border-top-style: solid;
+	border-color: #ffffff;
+	margin: 0
+	padding 0;
+}
+/*updating the background*/
+body { 
+	margin: 0;
+	background: url("../images/background.png");
+}
+/*changing style of heading*/
+h1 {
+	margin: 0;
+	padding: 20px;
+	margin-left: 10%;
+	width: 18%;
+	background-color: #4aaaa5;
+	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	text-align:center;
+}
+/*links to different pages*/
+#about {
+	margin-top: 30px;
+	width: 38%;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+#portfolio {
+	margin-top: 30px;
+	width: 7%;
+	float: left;
+	text-align: center;
+	border-left: solid;
+	border-right: solid;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+#contact {
+	margin-top: 30px;
+	width: 10%;
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+/*main content boxes*/
+div {
+	width: 530px;
+	border-style: solid;
+	float: left;
+	margin-left: 10%;
+	color: #777777;
+	border-color: #dddddd;
+	padding-right: 35px;
+	padding-left: 35px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #ffffff;
+}
+/*updated all h2 fonts and colors*/
+h2{
+	color: #4aaaa5;
+	border-bottom-style: solid;
+	border-color: silver;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+/*connect box*/
+.connect {
+	width: 270px;
+	text-align: center;
+	float: left;
+	margin-left: 5%;
+}
+/*chaing footer color and font*/
+.footer{
+	color: silver;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/*creating footer*/
+footer {
+	text-align: center;
+	height: 65px;
+	background-color: #666666;
+	padding-top: 35px;
+	margin-bottom: 0px;
+	clear: both;
+	width: 100%;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	border-width: 10px
+}
+/*changing images to proper specs on port pg*/
+.image1 {
+	height: 200px;
+	width: 220px;
+	float: left;
+	border: none;
+	margin-left: 25px;
+	margin-right: 5px;
+	padding-left: 0;
+	position: relative;
+	
+}
+
+.image2 {
+	height: 200px;
+	width: 220px;
+	float: left;
+	border: none;
+	margin-left: 0;
+	padding: 0 0 0 0 ;
+	position: relative;
+}
+
+.image3 {
+	height: 200px;
+	width: 220px;
+	float: left;
+	border: none;
+	margin-left: 25px;
+	margin-right: 5px;
+	padding-left: 0;
+	position: relative;
+}
+
+.image4 {
+	height: 200px;
+	width: 220px;
+	float: left;
+	border: none;
+	margin-left: 0;
+	padding: 0 0 0 0 ;
+	position: relative;
+}
+
+.image5 {
+	height: 200px;
+	width: 220px;
+	float: left;
+	border: none;
+	margin-left: 25px;
+	margin-right: 5px;
+	padding-left: 0px;
+	position: relative;
+}
+/* all of the writings are to add to photos on port page*/
+.writing1 {
+	position: absolute; 
+    top: 110px; 
+    width: 210px; 
+    height: 40px;
+    color: #ffffff;
+	border: none;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top:15px;
+	padding-left:0;
+	padding-right:10px;
+}
+
+.writing2 {
+	position: absolute; 
+    top: 110px; 
+    width: 210px; 
+    height: 40px;
+    color: #ffffff;
+	border: none;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top:15px;
+	padding-left:0;
+	padding-right:10px;
+}
+
+.writing3 {
+	position: absolute; 
+    top: 110px; 
+    width: 210px; 
+    height: 40px;
+    color: #ffffff;
+	border: none;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top:15px;
+	padding-left:0;
+	padding-right:10px;
+}
+
+.writing4 {
+	position: absolute; 
+    top: 110px; 
+    width: 210px; 
+    height: 40px;
+    color: #ffffff;
+	border: none;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.writing5 {
+	position: absolute; 
+    top: 110px; 
+    width: 210px; 
+    height: 40px;
+    color: #ffffff;
+	border: none;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top:15px;
+	padding-left:0;
+	padding-right:10px;
+}
+
+/*edits to submit button on contact page*/
+.submit{
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/* change text on text boxes contact page*/
+form{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-bottom: 40px;
+}
+/* adding space between text boxes on contact page*/
+input{
+	margin-bottom: 15px;
+}
